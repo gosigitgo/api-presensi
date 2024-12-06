@@ -13,7 +13,7 @@ class VersionModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['version','status'];
+    protected $allowedFields    = ['version','active'];
 
     // Dates
     protected $useTimestamps = false;
